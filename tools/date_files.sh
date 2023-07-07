@@ -1,7 +1,7 @@
 FILES="*csv"
 date="2023-07-07"
 system="weaver"
-task="heat3d"
+task="streambench"
 for f in $FILES
 do
    echo $f

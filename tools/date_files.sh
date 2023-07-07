@@ -5,5 +5,11 @@ task="heat3d"
 for f in $FILES
 do
    echo $f
-   mv $f "${date}_${system}_${task}_${f}"
+   if [[ ${#f} < 15 ]];
+   then
+      mv $f "${date}_${system}_${task}_${f}"
+      echo "renamed"
+   else
+      echo "no need to rename"
+   fi
 done

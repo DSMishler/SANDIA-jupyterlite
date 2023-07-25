@@ -1,2 +1,0 @@
-n,iterations,nruns,time_benchmark-mean,time_benchmark-error,gups-mean,gups-error
-100000,5,2,0.0003945,7.071067811865647e-07,1.2684875,0.0027032692244762643
